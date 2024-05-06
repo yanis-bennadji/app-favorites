@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+
+/* fonts etc etc */
+
+@font-face {
+    font-family: Spotify;
+    src: url(..//fonts/spotify/CircularSpotifyText-Medium.otf);
+}
+
+
+/* CSS for the header */
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    /* background: linear-gradient(to right ,black,#DEFF99,#252746); */
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 28px;
+    /* background-color: black;
+    color: white; */
+}
+
+
+/* CSS Index */
+
+.main-index {
+    font-family: "Montserrat";
+    
+}
+
+.three-columns {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 87.5vh;
+
+}
+
+.spotify-column {
+    background-color: black;
+    color: #1ED760;
+    font-family: Spotify;
+    
+}
+
+.forest-column {
+    background-color: #DEFF99;
+}
+
+.mimo-column {
+    background-color: #252746;
+    color: white;
+}
+
+.logo-column {
+    width: 5vw;
+    display: flex;
+    margin-left: 40%;
+}
+
+.app-button-spotify {                                 /*Color + size of the text */
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #1ED760;
+    color: black;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    border-color: white;
+    margin-left: 30%;
+    margin-top: 2px;
+    
+    
+}
+
+.app-button-spotify:hover {                                /* Color + size of the text */
+    transform: scale(1.1); 
+
+}
+
+.text-index {
+    margin-left: 5px;
+    margin-right: 5px ;
+}
+
+.app-button-forest {                                 /*Color + size of the text */
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #724406;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    border-color: white;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.app-button-forest:hover {                                /* Color + size of the text */
+    transform: scale(1.1); 
+
+}
+
+.app-button-mimo {                                 /*Color + size of the text */
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #2DC6FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    border-color: white;
+    margin-top: 17px;
+    margin: auto;
+}
+
+.app-button-mimo:hover {                                /* Color + size of the text */
+    transform: scale(1.1); 
+
+}
