@@ -9,6 +9,11 @@ body{
     src: url(..//fonts/spotify/CircularSpotifyText-Medium.otf);
 }
 
+@font-face {
+    font-family: Forest;
+    src: url(..//fonts/forest/Arial\ Greek\ Regular.ttf);
+}
+
 
 /* CSS for the header */
 
@@ -141,6 +146,7 @@ a {
 
 
 
+
 .body-spotify {
     background-color: black;
     color: white;
@@ -173,7 +179,7 @@ a {
 }
 
 
-.button-index {                                 /*Color + size of the text */
+.button-index {                                 
     display: block;
     width: 150px;
     text-align: center;
@@ -217,4 +223,10 @@ a {
     
 
    
+}
+
+/* CSS for Forest */
+
+.body-forest {
+    font-family: Montserrat;
 }
