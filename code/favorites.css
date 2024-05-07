@@ -20,13 +20,11 @@ a {
 
 
 .header {
-    /* background: linear-gradient(to right ,black,#DEFF99,#252746); */
     display: flex;
     justify-content: center;
     font-family: "Montserrat";
     font-size: 28px;
-    /* background-color: black;
-    color: white; */
+    
 }
 
 
@@ -67,7 +65,7 @@ a {
     margin-left: 40%;
 }
 
-.app-button-spotify {                                 /*Color + size of the text */
+.app-button-spotify {                                 
     display: block;
     width: 150px;
     text-align: center;
@@ -85,7 +83,7 @@ a {
     
 }
 
-.app-button-spotify:hover {                                /* Color + size of the text */
+.app-button-spotify:hover {                               
     transform: scale(1.1); 
 
 }
@@ -95,7 +93,7 @@ a {
     margin-right: 5px ;
 }
 
-.app-button-forest {                                 /*Color + size of the text */
+.app-button-forest {                               
     display: block;
     width: 150px;
     text-align: center;
@@ -111,12 +109,12 @@ a {
     margin: auto;
 }
 
-.app-button-forest:hover {                                /* Color + size of the text */
+.app-button-forest:hover {                                
     transform: scale(1.1); 
 
 }
 
-.app-button-mimo {                                 /*Color + size of the text */
+.app-button-mimo {                                 
     display: block;
     width: 150px;
     text-align: center;
@@ -143,8 +141,6 @@ a {
 
 
 
-
-
 .body-spotify {
     background-color: black;
     color: white;
@@ -168,20 +164,12 @@ a {
     align-items: center;
     width: 50vw;
     margin: auto;
+    transition: transform 0.3s ease;
 }
 
 .timeline:hover{
-    color: #424242; 
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
   transition: all .3s ease-in;
-  opacity: 1;
   transform: scale(1.30);
-  -ms-transform: scale(1.30); 
-  -webkit-transform: scale(1.30); 
-
 }
 
 
