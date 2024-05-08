@@ -44,7 +44,7 @@ a {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 87.5vh;
+    height: 90.7vh;
 
 }
 
@@ -179,7 +179,7 @@ a {
 }
 
 
-.button-index {                                 
+.button-index-spotify {                                 
     display: block;
     width: 150px;
     text-align: center;
@@ -191,11 +191,7 @@ a {
     border-radius: 40px;
     transition: all 0.3s ease;
     border-color: white;
-    margin-left: 30vw;
-    
-    
-    
-    
+    margin-left: 34vw;
     
 }
 
@@ -229,4 +225,98 @@ a {
 
 .body-forest {
     font-family: Montserrat;
+    background-color: #51A388;
+    
+    color: white;
+}
+
+.titre-forest {
+    text-align: center;
+    font-size: 35px;
+}
+
+.screen-forest1 {
+    width: 15vw;
+}
+
+.forest1 {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    
+}
+
+
+
+.text-forest1 {
+    font-size: 30px;
+    
+}
+
+.forest2 {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #2F5E4E ;
+    font-size: 20px;
+}
+
+.screen-forest2 {
+    width: 10vw;
+    margin-top: 25px;
+}
+
+.text-forest2 {
+    margin-top: 77px;
+   
+}
+
+
+.button-index-forest {                                 
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #2F5E4E;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    border-color: white;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.forest3 {
+    font-size:30px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 25px;
+    
+}
+
+.logoTFTF {
+    width: 20vw;
+    
+    
+    
+}
+
+
+.footer-forest {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #2F5E4E;
+}
+
+.logo-appstore {
+    width: 15vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
